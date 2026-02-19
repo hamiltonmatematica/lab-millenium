@@ -1,0 +1,7 @@
+{
+  "name": "Laboratório Millenium Landing Page",
+  "description": "Uma página moderna e clean para o Laboratório Millenium, destacando suas unidades, tradição de 18 anos e integração com redes sociais.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
