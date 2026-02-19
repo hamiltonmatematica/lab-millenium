@@ -12,6 +12,7 @@ const units = [
     city: 'Bonito de Minas',
     address: 'Praça Bom Jesus, 170 - Centro',
     phones: ['(38) 3621-4250'],
+    mapLink: 'https://maps.app.goo.gl/BCSa3mdWNHzokEXR7'
   },
   {
     city: 'Itacarambi',
@@ -58,7 +59,7 @@ export const Units: React.FC = () => {
 
             <div className="mt-10 pt-6 border-t border-slate-50">
               <a 
-                href={`https://www.google.com/maps/search/${encodeURIComponent(`Millenium Laboratorio ${unit.city} ${unit.address}`)}`}
+                href={unit.mapLink || `https://www.google.com/maps/search/${encodeURIComponent(`Millenium Laboratorio ${unit.city} ${unit.address}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-sm font-bold text-[#1E3A8A] hover:text-[#B91C1C] transition-colors"
