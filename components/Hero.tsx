@@ -8,25 +8,26 @@ export const Hero: React.FC = () => {
         <div className="absolute top-0 -left-4 w-72 h-72 bg-blue-50 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob"></div>
         <div className="absolute top-0 -right-4 w-72 h-72 bg-red-50 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-2000"></div>
       </div>
-      
+
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-blue-700 text-sm font-medium mb-8">
           <span className="flex h-2 w-2 rounded-full bg-blue-600"></span>
           <span>🔬 18 anos de tradição e confiança</span>
         </div>
-        
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight mb-6">
+
+        <p className="text-[#1E3A8A] font-bold tracking-tight text-5xl sm:text-6xl lg:text-7xl mb-2" style={{ fontFamily: "'Playfair Display', serif" }}>Laboratório Millenium</p>
+        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-slate-900 tracking-tight mb-6">
           <span className="text-[#1E3A8A]">Cuidamos da sua saúde</span> <br className="hidden sm:block" />
           <span className="text-[#B91C1C]">com excelência técnica.</span>
         </h1>
-        
+
         <p className="max-w-2xl mx-auto text-lg text-slate-600 mb-10 leading-relaxed">
           “Atendimento humanizado e infraestrutura de excelência” para garantir resultados precisos em Januária, Bonito de Minas e Itacarambi.
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-          <a 
-            href="https://wa.me/553899204444" 
+          <a
+            href="https://wa.me/553899204444"
             className="w-full sm:w-auto px-8 py-4 bg-[#1E3A8A] text-white rounded-xl font-bold text-lg hover:scale-105 transition-transform shadow-xl shadow-blue-900/20"
           >
             Falar no WhatsApp

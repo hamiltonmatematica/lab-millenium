@@ -8,17 +8,14 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <LogoIconWhite className="h-10 w-10 text-white" />
-              <div className="flex flex-col">
-                <span className="text-xl font-bold tracking-tight">Millenium</span>
-                <span className="text-[10px] uppercase tracking-widest text-red-500 font-semibold -mt-1">LABORATÓRIO</span>
-              </div>
+              <img src="/logo.png" alt="Laboratório Millenium" className="h-14 w-auto object-contain" />
+
             </div>
             <p className="text-slate-400 text-sm">
               Tradição e tecnologia a serviço da sua vida. Há mais de 18 anos realizando exames com precisão e carinho.
             </p>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-bold mb-6">Unidades</h4>
             <ul className="space-y-4 text-slate-400 text-sm">
@@ -43,7 +40,7 @@ export const Footer: React.FC = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="mt-16 pt-8 border-t border-slate-800 text-center text-slate-500 text-xs">
           <p>© {new Date().getFullYear()} Laboratório Millenium. Todos os direitos reservados.</p>
         </div>
@@ -52,9 +49,3 @@ export const Footer: React.FC = () => {
   );
 };
 
-const LogoIconWhite = ({ className }: { className?: string }) => (
-  <svg viewBox="0 0 100 100" className={className} fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M40 35C45 25 65 25 70 35C75 45 65 65 50 75C35 65 25 45 30 35" stroke="#ef4444" strokeWidth="4" strokeLinecap="round" />
-    <path d="M60 35C55 25 35 25 30 35C25 45 35 65 50 75C65 65 75 45 70 35" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
-  </svg>
-);
