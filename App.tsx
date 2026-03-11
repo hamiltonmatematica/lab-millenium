@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Hero } from './components/Hero';
+import { HealthPlans } from './components/HealthPlans';
 import { Units } from './components/Units';
 import { InstagramFeed } from './components/InstagramFeed';
 import { Navbar } from './components/Navbar';
@@ -13,6 +14,7 @@ const App: React.FC = () => {
       <Navbar />
       <main className="flex-grow">
         <Hero />
+        <HealthPlans />
         <section id="unidades" className="py-16 md:py-24">
           <Units />
         </section>
